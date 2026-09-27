@@ -1,35 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Kiosk</title>
+    <title>Event Driven Programming</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Student Interactive Kiosk</h1>
-    <p>A quick kiosk for students to interact with</p>
-    
-    <div>
-        <h2>Welcome!</h2>
-        <button id="welcomeButton" onclick="handleWelcomeClick()">Welcome</button>
+
+    <div class="container">
+        <h1>Event Driven Programming</h1>
+
+        <p id="message">Click the button below.</p>
+
+        <button id="myButton">Click Me</button>
+
+        <br><br>
+
+        <input type="text" id="nameInput" placeholder="Enter your name">
+
+        <p id="nameOutput"></p>
     </div>
 
-    <div>
-        <h2>Student Form</h2>
-            <form id="studentForm">
-                <input type="text" placeholder="Enter Text">
-                <button type="submit">Submit</button>
-            </form>
-    </div>
-
-    <div>
-        <h2>Feedback Form</h2>
-            <form id="feedbackForm">
-                <input type="text" placeholder="Enter Feedback">
-                <button type="submit">Submit</button>
-            </form>
-    </div>
     <script src="script.js"></script>
 </body>
 </html>
